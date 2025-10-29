@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Default High Contrast Light",
+		"workbench.preferredLightColorTheme": "Default High Contrast Light"
+	}
+}

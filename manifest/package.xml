@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>BugFixAgent</members>
+        <members>BugAnalyzer</members>
+        <members>DeploymentManager</members>
+        <members>BugFixWorkflow</members>
+        <members>BugFixAgentAPI</members>
+        <members>BugReport</members>
+        <members>BugFix</members>
+        <members>DeploymentRequest</members>
+        <members>DeploymentPackage</members>
+        <members>DeploymentResult</members>
+        <members>WorkflowResult</members>
+        <members>DeploymentException</members>
+        <members>BugFixAgentTest</members>
+        <members>BugAnalyzerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Bug_Report__c</members>
+        <members>Deployment_Request__c</members>
+        <members>Deployment_Notification__c</members>
+        <members>Agent_Configuration__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>60.0</version>
+</Package>

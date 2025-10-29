@@ -1,0 +1,70 @@
+{
+  "name": "BugFixAgent",
+  "version": "1.0.0",
+  "description": "AI-powered agent that automatically detects, fixes bugs, and manages deployments in Salesforce DevOps platform",
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "salesforce",
+    "agentforce",
+    "bug-fixing",
+    "devops",
+    "automation",
+    "ai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/BugFixAgent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/BugFixAgent/issues"
+  },
+  "homepage": "https://github.com/yourusername/BugFixAgent#readme",
+  "agentExchange": {
+    "category": "DevOps",
+    "tags": ["bug-fixing", "automation", "deployment"],
+    "compatibility": {
+      "salesforceApiVersion": "60.0",
+      "agentforceVersion": "1.0.0"
+    },
+    "capabilities": [
+      "Bug Detection",
+      "Bug Analysis", 
+      "Auto Fix",
+      "Deployment Management",
+      "User Confirmation"
+    ],
+    "requirements": [
+      "Salesforce org with AgentForce enabled",
+      "Custom objects: Bug_Report__c, Deployment_Request__c, Deployment_Notification__c, Agent_Configuration__c",
+      "API access for DevOps platform integration"
+    ],
+    "installation": {
+      "steps": [
+        "Deploy the package to your Salesforce org",
+        "Configure agent settings in Agent_Configuration__c",
+        "Set up email notifications",
+        "Test the agent with sample bug reports"
+      ]
+    },
+    "configuration": {
+      "UserEmail": "Email address for deployment notifications",
+      "MaxBugsPerRun": "Maximum number of bugs to process per run (default: 50)",
+      "MinFixConfidence": "Minimum confidence threshold for auto-fixing (default: 70)",
+      "DeploymentTimeout": "Deployment timeout in minutes (default: 30)"
+    }
+  },
+  "dependencies": {
+    "@salesforce/sfdx-core": "^3.0.0",
+    "@salesforce/agentforce": "^1.0.0"
+  },
+  "scripts": {
+    "build": "sfdx force:source:deploy",
+    "test": "sfdx force:apex:test:run",
+    "lint": "sfdx force:source:lint",
+    "package": "sfdx force:package:create"
+  }
+}
