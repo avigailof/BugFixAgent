@@ -42,7 +42,7 @@ BugFixAgent is an intelligent AI agent built on Salesforce AgentForce that autom
 ## Installation
 
 ### Prerequisites
-- Salesforce org with AgentForce enabled
+- Salesforce org with [AgentForce enabled](https://developer.salesforce.com/docs/agentforce)
 - API access for DevOps platform integration
 - Custom objects deployed (see below)
 
@@ -189,14 +189,19 @@ Enable debug logging by setting the `DebugMode` configuration to `true`.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
 For support and questions:
-- Create an issue in the GitHub repository
-- Contact the author at your.email@example.com
-- Check the Salesforce AgentForce documentation
+- Create an issue in the [GitHub repository](https://github.com/avigailof/BugFixAgent/issues)
+- Contact the author
+- Check the [Salesforce AgentForce documentation](https://developer.salesforce.com/docs/agentforce)
+
+## Repository
+
+- **GitHub**: [https://github.com/avigailof/BugFixAgent](https://github.com/avigailof/BugFixAgent)
+- **Issues**: [https://github.com/avigailof/BugFixAgent/issues](https://github.com/avigailof/BugFixAgent/issues)
 
 ## Changelog
 
@@ -206,3 +211,5 @@ For support and questions:
 - Deployment management
 - User confirmation workflow
 - REST API integration
+- AgentExchange framework compatibility
+- Comprehensive validation tests

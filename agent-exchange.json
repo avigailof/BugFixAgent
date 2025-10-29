@@ -17,12 +17,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/BugFixAgent.git"
+    "url": "https://github.com/avigailof/BugFixAgent.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/BugFixAgent/issues"
+    "url": "https://github.com/avigailof/BugFixAgent/issues"
   },
-  "homepage": "https://github.com/yourusername/BugFixAgent#readme",
+  "homepage": "https://github.com/avigailof/BugFixAgent#readme",
   "agentExchange": {
     "category": "DevOps",
     "tags": ["bug-fixing", "automation", "deployment"],
